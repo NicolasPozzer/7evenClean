@@ -1,6 +1,6 @@
 @echo off
 color 03
-echo Ejecutando 7evenClean By Niko7even...
+echo Ejecutando 7evenClean By Niko7even....
 timeout 3
 cls
 color 06
