@@ -8,7 +8,7 @@ cls
 sc stop wuauserv
 rmdir /S /Q C:\Windows\Temp
 rmdir /S /Q C:\Windows\Prefetch
-rmdir /S /Q C:\Users\nico-\AppData\Local\Temp
+rmdir /S /Q "%USERPROFILE%\AppData\Local\Temp"
 
 timeout 1
 cls
@@ -16,5 +16,4 @@ color 02
 echo Optimizacion completada!!
 timeout 1
 
-pause
 exit
